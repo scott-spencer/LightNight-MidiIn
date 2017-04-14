@@ -10,10 +10,11 @@ This example draws message values from fader control numbers 12, 13 and 14 in of
 
 
 midiIn gives port infomation, name, number, etc
+
 newMidiMessage is the message written to the the listener
 
 
 CC messages are:
-midiMessage.status - MIDI_CONTROL_CHANGE or 176
-midiMessage.control - control channels. 0-7 dials, 10-17 faders
-midiMessage.value - value 0-127
+- midiMessage.status - MIDI_CONTROL_CHANGE or 176
+- midiMessage.control - control channels. 0-7 dials, 10-17 faders
+- midiMessage.value - value 0-127
